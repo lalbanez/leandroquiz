@@ -1,43 +1,78 @@
 {
-    "bg": "https://i2.wp.com/css-tricks.com/wp-content/uploads/2017/06/css-is-awesome-scaled.jpg?resize=1536%2C1208&ssl=1",
-    "title": "Quiz CSS da Alura",
-    "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
-    "questions": [
-      {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
-        "description": "Essa é pra aquecer",
-        "answer": 2,
-        "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
-        ]
-      },
-      {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
-        "answer": 0,
-        "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
-        ]
-      }
-    ],
-    "external": [
-      ""
-    ],
-    "theme": {
-      "colors": {
-        "primary": "#0d47a1",
-        "secondary": "#29b6f6",
-        "mainBg": "#171B35",
-        "contrastText": "#FFFFFF",
-        "wrong": "#FF5722",
-        "success": "#4CAF50"
-      },
-      "borderRadius": "4px"
+  "bg": "https://wallpapercave.com/wp/wp4048631.jpg?resize=1536%2C1208&ssl=1",
+  "title": "Quiz CSS da Alura",
+  "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
+  "questions": [
+    {
+      "image": "https://media.giphy.com/media/1U4S8219ByoGk/giphy.gif",
+      "title": "Questão 1",
+      "description": "Qual a sintaxe correta para imprimir \"Hello World\" no Java?",
+      "answer": 1,
+      "alternatives": [
+        "System.out.println(\"Hello World\");  ",
+        "print (\"Hello World\");",
+        "echo(\"Hello World\");",
+        "Console.WriteLine(\"Hello World\");"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/l2aQDfA2Ky15oxtYLn/giphy.gif",
+      "title": "Java é uma abreviação para \"JavaScript\".",
+      "description": "",
+      "answer": 1,
+      "alternatives": [
+        "Falso",
+        "Verdadeiro"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/iIqmM5tTjmpOB9mpbn/giphy.gif",
+      "title": "Questão 3",
+      "description": "Como você insere comentários no código Java?",
+      "answer": 1,
+      "alternatives": [
+        "//This is a comment",
+        "/*This is a comment",
+        "#This is a comment"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/4Zgy9QqzWU8C3ugvCa/giphy.gif",
+      "title": "Questão 4",
+      "description": "Qual tipo de dados é usado para criar uma variável que deverá armazenar um texto?",
+      "answer": 1,
+      "alternatives": [
+        "String",
+        "Txt",
+        "string",
+        "myString"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/TNf5oSRelTeI8/giphy.gif",
+      "title": "Questão 5",
+      "description": "Como criar uma variável com o valor numérico 5",
+      "answer": 1,
+      "alternatives": [
+        "int x =5;",
+        "num x = 5",
+        "x = 5;",
+        "float x = 5;"
+      ]
     }
+  ],
+  "external": [
+    ""
+  ],
+  "theme": {
+    "colors": {
+      "primary": "#482880",
+      "secondary": "#673ab7",
+      "mainBg": "#171B35",
+      "contrastText": "#FFFFFF",
+      "wrong": "#FF5722",
+      "success": "#4CAF50"
+    },
+    "borderRadius": "4px"
   }
+}
