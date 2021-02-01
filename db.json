@@ -1,13 +1,13 @@
 {
   "bg": "https://wallpapercave.com/wp/wp4048631.jpg?resize=1536%2C1208&ssl=1",
-  "title": "Quiz CSS da Alura",
-  "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
+  "title": "Quiz Java do Leandro",
+  "description": "Teste os seus conhecimentos sobre Java e vamos ver quantos stack overflow você recebe!",
   "questions": [
     {
       "image": "https://media.giphy.com/media/1U4S8219ByoGk/giphy.gif",
       "title": "Questão 1",
       "description": "Qual a sintaxe correta para imprimir \"Hello World\" no Java?",
-      "answer": 1,
+      "answer": 0,
       "alternatives": [
         "System.out.println(\"Hello World\");  ",
         "print (\"Hello World\");",
@@ -19,7 +19,7 @@
       "image": "https://media.giphy.com/media/l2aQDfA2Ky15oxtYLn/giphy.gif",
       "title": "Java é uma abreviação para \"JavaScript\".",
       "description": "",
-      "answer": 1,
+      "answer": 0,
       "alternatives": [
         "Falso",
         "Verdadeiro"
@@ -29,7 +29,7 @@
       "image": "https://media.giphy.com/media/iIqmM5tTjmpOB9mpbn/giphy.gif",
       "title": "Questão 3",
       "description": "Como você insere comentários no código Java?",
-      "answer": 1,
+      "answer": 0,
       "alternatives": [
         "//This is a comment",
         "/*This is a comment",
@@ -40,7 +40,7 @@
       "image": "https://media.giphy.com/media/4Zgy9QqzWU8C3ugvCa/giphy.gif",
       "title": "Questão 4",
       "description": "Qual tipo de dados é usado para criar uma variável que deverá armazenar um texto?",
-      "answer": 1,
+      "answer": 0,
       "alternatives": [
         "String",
         "Txt",
@@ -52,7 +52,7 @@
       "image": "https://media.giphy.com/media/TNf5oSRelTeI8/giphy.gif",
       "title": "Questão 5",
       "description": "Como criar uma variável com o valor numérico 5",
-      "answer": 1,
+      "answer": 0,
       "alternatives": [
         "int x =5;",
         "num x = 5",
@@ -62,7 +62,9 @@
     }
   ],
   "external": [
-    ""
+    "https://pato-quiz-nextjs.vercel.app/",
+    "https://musicquiz.sidibecker.vercel.app/",
+    "https://1sec-quiz.vercel.app/"
   ],
   "theme": {
     "colors": {

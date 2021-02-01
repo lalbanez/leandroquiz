@@ -26,7 +26,7 @@ export default function Home() {
         <QuizLogo />
         <Widget>
           <Widget.Header>
-            <h1>The legend of CSS</h1>
+            <h1>The legend of Java</h1>
           </Widget.Header>
           <Widget.Content>
             <form onSubmit={(event) => {
