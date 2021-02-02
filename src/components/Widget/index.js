@@ -20,6 +20,10 @@ const Widget = styled.div`
     font-weight: 400;
     line-height: 1;
   }
+
+  .loading {
+    background-image: url(../image/loading.gif);
+  }
 `;
 
 Widget.Header = styled.header`
@@ -59,6 +63,7 @@ cursor: pointer;
 border-radius: ${({ theme }) => theme.borderRadius};
 transition: .3s;
 display: block;
+word-break: break-all;
 
 &:hover,
 &:focus {

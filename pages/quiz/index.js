@@ -3,24 +3,33 @@
 import React from 'react';
 import Head from 'next/head';
 
-import db from '../db.json';
-import Widget from '../src/components/Widget';
-import QuizLogo from '../src/components/QuizLogo';
-import Footer from '../src/components/Footer';
-import GitHubCorner from '../src/components/GitHubCorner';
-import QuizBackground from '../src/components/QuizBackground';
-import QuizContainer from '../src/components/QuizContainer';
-import AlternativeForm from '../src/components/AlternativeForm';
-import Button from '../src/components/Button';
+import db from '../../db.json';
+import Widget from '../../src/components/Widget';
+import QuizLogo from '../../src/components/QuizLogo';
+import Footer from '../../src/components/Footer';
+import GitHubCorner from '../../src/components/GitHubCorner';
+import QuizBackground from '../../src/components/QuizBackground';
+import QuizContainer from '../../src/components/QuizContainer';
+import AlternativeForm from '../../src/components/AlternativeForm';
+import Button from '../../src/components/Button';
+import BackLinkArrow from '../../src/components/BackLinkArrow';
 
 function LoadingWidget() {
   return (
     <Widget>
       <Widget.Header>
+        <BackLinkArrow href="/" />
         Carregando ...
       </Widget.Header>
       <Widget.Content>
-        [Desafio do Loading]
+        <img
+          alt="Loading"
+          style={{
+            alignContent: 'center',
+          }}
+          src="https://i.gifer.com/WMDx.gif"
+        />
+
       </Widget.Content>
 
     </Widget>
@@ -31,6 +40,7 @@ function ResultWidget({ results }) {
   return (
     <Widget>
       <Widget.Header>
+        <BackLinkArrow href="/" />
         Resultados
       </Widget.Header>
       <Widget.Content>
@@ -86,6 +96,7 @@ function QuestionWidget({
           height: '150px',
           objectFit: 'cover',
         }}
+        L
         src={question.image}
       />
 
@@ -162,7 +173,7 @@ export default function QuizPage() {
   React.useEffect(() => {
     setTimeout(() => {
       setScreenState(screenStates.QUIZ);
-    }, 1 * 1000);
+    }, 5 * 1000);
   }, []);
 
   function handleSubmitQuiz() {
